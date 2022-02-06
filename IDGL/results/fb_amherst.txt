@@ -1,0 +1,276 @@
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.05, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.05, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.05
+Training time: 86.64
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 396; 
+NLOSS = -1.29709
+ACC = 0.63583
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27515 | ACC = 0.65354
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.05
+Testing time: 0.06
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.1, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.1
+Training time: 89.33
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 405; 
+NLOSS = -1.29765
+ACC = 0.63780
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27504 | ACC = 0.66339
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.1
+Testing time: 0.04
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.15, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.15
+Training time: 91.62
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 402; 
+NLOSS = -1.29829
+ACC = 0.63189
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.28549 | ACC = 0.62795
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.15
+Testing time: 0.06
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.2, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.2
+Training time: 104.57
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 451; 
+NLOSS = -1.29517
+ACC = 0.62992
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27017 | ACC = 0.67913
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.7_update_adj_ratio_0.2
+Testing time: 0.07
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.75, update_adj_ratio:0.05, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.05
+Training time: 99.25
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 443; 
+NLOSS = -1.29477
+ACC = 0.64173
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27265 | ACC = 0.65551
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.05
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.75, update_adj_ratio:0.1, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.1
+Training time: 93.76
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 413; 
+NLOSS = -1.29615
+ACC = 0.64567
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27667 | ACC = 0.64961
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.1
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.75, update_adj_ratio:0.15, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.15
+Training time: 132.18
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 615; 
+NLOSS = -1.28758
+ACC = 0.65551
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.26714 | ACC = 0.66535
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.15
+Testing time: 0.06
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.75, update_adj_ratio:0.2, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.2
+Training time: 101.66
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 444; 
+NLOSS = -1.29639
+ACC = 0.64370
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27445 | ACC = 0.65748
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.75_update_adj_ratio_0.2
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.8, update_adj_ratio:0.05, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.05
+Training time: 99.26
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 443; 
+NLOSS = -1.29420
+ACC = 0.63780
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27440 | ACC = 0.66339
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.05
+Testing time: 0.04
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.8, update_adj_ratio:0.1, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.1
+Training time: 181.68
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 894; 
+NLOSS = -1.28552
+ACC = 0.65551
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27499 | ACC = 0.65551
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.1
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.8, update_adj_ratio:0.15, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.15
+Training time: 141.64
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 675; 
+NLOSS = -1.28750
+ACC = 0.64961
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.26465 | ACC = 0.67913
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.15
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.8, update_adj_ratio:0.2, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.2
+Training time: 130.87
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 615; 
+NLOSS = -1.28754
+ACC = 0.64567
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.26408 | ACC = 0.66732
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.8_update_adj_ratio_0.2
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.85, update_adj_ratio:0.05, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.05
+Training time: 141.63
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 675; 
+NLOSS = -1.28964
+ACC = 0.64961
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27167 | ACC = 0.67126
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.05
+Testing time: 0.04
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.85, update_adj_ratio:0.1, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.1
+Training time: 181.18
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 894; 
+NLOSS = -1.28728
+ACC = 0.64567
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.28137 | ACC = 0.65551
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.1
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.85, update_adj_ratio:0.15, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.15
+Training time: 140.86
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 675; 
+NLOSS = -1.28902
+ACC = 0.64961
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.27091 | ACC = 0.67717
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.15
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.85, update_adj_ratio:0.2, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.2
+Training time: 140.98
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 675; 
+NLOSS = -1.28867
+ACC = 0.65157
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.26976 | ACC = 0.68110
+Finished Testing: ../out/cora/idgl_graph_skip_conn_0.85_update_adj_ratio_0.2
+Testing time: 0.05
+
+
+==========Begin Training===============
+seed:42, hidden_size:16, graph_skip_conn:0.85, update_adj_ratio:0.2, smoothness_ratio:0.1, degree_ratio:0, sparsity_ratio:0, graph_learn_num_pers:4, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/cora/idgl
+Training time: 133.18
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 675; 
+NLOSS = -1.28867
+ACC = 0.65157
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 508 | step: [1 / 1] | NLOSS = -1.26976 | ACC = 0.68110
+Finished Testing: ../out/cora/idgl
+Testing time: 0.05

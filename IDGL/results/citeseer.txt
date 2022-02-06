@@ -1,0 +1,64 @@
+
+
+==========Begin Training===============
+seed:49, hidden_size:16, graph_skip_conn:0.6, update_adj_ratio:0.5, smoothness_ratio:0.4, degree_ratio:0, sparsity_ratio:0.2, graph_learn_num_pers:1, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/citeseer/idgl
+Training time: 1241.24
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 574; 
+NLOSS = -1.79917
+ACC = 0.74200
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 1000 | step: [1 / 1] | NLOSS = -1.78167 | ACC = 0.73900
+Finished Testing: ../out/citeseer/idgl
+Testing time: 0.64
+
+
+==========Begin Training===============
+seed:8187, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.1, smoothness_ratio:0.4, degree_ratio:0, sparsity_ratio:0.2, graph_learn_num_pers:1, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/citeseer/idgl_graph_skip_conn_0.7_update_adj_ratio_0.1
+Training time: 1077.9
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 674; 
+NLOSS = -1.91166
+ACC = 0.72000
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 1000 | step: [1 / 1] | NLOSS = -1.88459 | ACC = 0.72000
+Finished Testing: ../out/citeseer/idgl_graph_skip_conn_0.7_update_adj_ratio_0.1
+Testing time: 0.42
+
+
+==========Begin Training===============
+seed:8882, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.2, smoothness_ratio:0.4, degree_ratio:0, sparsity_ratio:0.2, graph_learn_num_pers:1, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/citeseer/idgl_graph_skip_conn_0.7_update_adj_ratio_0.2
+Training time: 1561.66
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 727; 
+NLOSS = -1.85051
+ACC = 0.73400
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 1000 | step: [1 / 1] | NLOSS = -1.84580 | ACC = 0.73400
+Finished Testing: ../out/citeseer/idgl_graph_skip_conn_0.7_update_adj_ratio_0.2
+Testing time: 0.64
+
+
+==========Begin Training===============
+seed:8375, hidden_size:16, graph_skip_conn:0.7, update_adj_ratio:0.3, smoothness_ratio:0.4, degree_ratio:0, sparsity_ratio:0.2, graph_learn_num_pers:1, learning_rate:0.01, weight_decay:0.0005, 
+Finished Training: ../out/citeseer/idgl_graph_skip_conn_0.7_update_adj_ratio_0.3
+Training time: 1225.83
+
+<<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+Best epoch = 547; 
+NLOSS = -1.87108
+ACC = 0.72400
+
+ <<<<<<<<<<<<<<<< MODEL SUMMARY >>>>>>>>>>>>>>>> 
+[test] | test_exs = 1000 | step: [1 / 1] | NLOSS = -1.82167 | ACC = 0.72000
+Finished Testing: ../out/citeseer/idgl_graph_skip_conn_0.7_update_adj_ratio_0.3
+Testing time: 0.65
