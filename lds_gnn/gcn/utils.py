@@ -20,6 +20,9 @@ def sample_mask(idx, l):
     mask[idx] = 1
     return np.array(mask, dtype=np.bool)
 
+def load_fb100(dataset_str):
+    pass
+
 
 def load_data(dataset_str):
     """
@@ -38,9 +41,12 @@ def load_data(dataset_str):
     :param dataset_str: Dataset name
     :return: All data input files loaded (as well the training/test data).
     """
+    if dataset_str.startswith('fb'):
+        return load_fb100(dataset_str)
+
     names = ['x', 'y', 'tx', 'ty', 'allx', 'ally', 'graph']
     objects = []
-    data_path= os.path.join('../../../data/Planetoid',dataset_str,'raw')
+    data_path= os.path.join('../../data',dataset_str)
     for i in range(len(names)):
         with open("{}/ind.{}.{}".format(data_path, dataset_str, names[i]), 'rb') as f:
             if sys.version_info > (3, 0):

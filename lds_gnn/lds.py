@@ -241,7 +241,7 @@ def main(data, method, seed, missing_percentage,node_remove=0):
         # configs = LDSConfig.grid(pat=20, seed=seed, io_steps=[1, 5, 20],
         #                          io_lr=(2.e-2, 1.e-4, 0.05), keep_prob=0.5,
         #                          oo_lr=[(1., 1., 1.e-3), (.1, 1., 1.e-3)])
-        configs = LDSConfig.grid(pat=2, seed=seed, io_steps=20,
+        configs = LDSConfig.grid(pat=20, seed=seed, io_steps=20,
                                  io_lr=(2.e-2, 1.e-4, 0.05), keep_prob=0.5,
                                  oo_lr=(.1, 1., 1.e-3),hidden=16)
     else:
@@ -255,12 +255,10 @@ def main(data, method, seed, missing_percentage,node_remove=0):
     best_test_acc = 0
     print(data_config)
     for cnf in configs:
-        start=time.time()
         print('=======config===========')
         print(cnf)
         # vrs, valid_acc, test_acc = lds(data_config, cnf)
         vrs, valid_acc, test_acc, test_time, train_time = lds(data_config, cnf)
-        end=time.time()
         if best_valid_acc <= valid_acc:
             print('Found a better configuration:', valid_acc)
             best_valid_acc = valid_acc
