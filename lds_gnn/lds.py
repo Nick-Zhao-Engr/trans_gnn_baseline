@@ -223,6 +223,9 @@ def main(data, method, seed, missing_percentage,node_remove=0):
     elif data == 'cora' or data == 'citeseer':
         data_config = EdgeDelConfigData(prob_del=missing_percentage, seed=seed, enforce_connected=False,
                                         dataset_name=data)
+    elif data.startswith('fb'):
+        data_config = EdgeDelConfigData(prob_del=missing_percentage, seed=seed, enforce_connected=False,
+                                        dataset_name=data)
     elif data == 'fma':
         data_config = UCI(seed=seed, dataset_name=data, n_train=160, n_val=160, n_es=160, scale=False)
     else:
@@ -241,9 +244,9 @@ def main(data, method, seed, missing_percentage,node_remove=0):
         # configs = LDSConfig.grid(pat=20, seed=seed, io_steps=[1, 5, 20],
         #                          io_lr=(2.e-2, 1.e-4, 0.05), keep_prob=0.5,
         #                          oo_lr=[(1., 1., 1.e-3), (.1, 1., 1.e-3)])
-        configs = LDSConfig.grid(pat=20, seed=seed, io_steps=20,
+        configs = LDSConfig.grid(pat=10, seed=seed, io_steps=[1, 5, 20],
                                  io_lr=(2.e-2, 1.e-4, 0.05), keep_prob=0.5,
-                                 oo_lr=(.1, 1., 1.e-3),hidden=16)
+                                 oo_lr=[(1., 1., 1.e-3), (.1, 1., 1.e-3)])
     else:
         raise NotImplementedError('Method {} unknown. Choose between `knnlds` and `lds`'.format(method))
 

@@ -44,8 +44,8 @@ graph_learn: True
 graph_metric_type: 'weighted_cosine' # kernel, attention, gat_attention
 graph_skip_conn: [0.7,0.75,0.8,0.85] # 0.9, IL: 0.8
 # graph_skip_conn: 0.85 # 0.9, IL: 0.8
-update_adj_ratio: [0.1,0.15,0.2,0.25] # IL: 0.1
-update_adj_ratio: 0.2 # IL: 0.1
+update_adj_ratio: [0.1,0.15,0.25] # IL: 0.1
+# update_adj_ratio: 0.2 # IL: 0.1
 graph_include_self: False
 graph_learn_regularization: False
 smoothness_ratio: 0.1 # 0.2, IL: 0.2

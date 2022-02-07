@@ -189,8 +189,15 @@ def graph_delete_connections(prob_del, seed, adj, features, y_train,
     features = preprocess_features(features)
 
     if to_dense:
-        features = features.toarray()
-        adj = adj.toarray()
+        try:
+            features = features.toarray()
+        except AttributeError:
+            pass
+        try:
+            adj = adj.toarray()
+        except AttributeError:
+            pass
+    
     del_adj = np.array(adj, dtype=np.float32)
 
     smpl = rnd.choice([0., 1.], p=[prob_del, 1. - prob_del], size=adj.shape) * upper_triangular_mask(
